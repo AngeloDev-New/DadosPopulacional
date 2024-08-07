@@ -1,0 +1,5 @@
+#executar direto no colab (O grafico nao fica visivel)
+!curl -O https://raw.githubusercontent.com/AngeloDev-New/DadosPopulacional/main/Grafico.py
+!pip install mplcursors
+!python3 Grafico.py
+#acredito que nao fica vizivel pois esta sendo executado diretamente pelo interpretador interno da maquina host

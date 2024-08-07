@@ -1,4 +1,6 @@
-!pip install mplcursors
+import pip
+pip._internal.main(["install","mplcursors"])
+#!pip install mplcursors
 #Importacao de bibliotecas
     #pandas para lidar com o arquivo csv 
     #matplot.pyplot as plt para gerar o grafico propriamente dito ...o as plt serve para apelidade e nao precisar ficar chamando de matplot.pyplot toda vez

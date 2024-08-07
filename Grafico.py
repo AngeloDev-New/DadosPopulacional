@@ -10,6 +10,7 @@ import mplcursors
 # Carregar os dados do arquivo CSV
     #o metodo read_csv() contido na biblioteca pandas que esta renomeada como pd,serve para carregar o arquivo csv no objeto df (basicamente carrega na memoria)
     #no caso deste arquivo ele esta puxando diretamente do repositorio do github
+    #o pandas puxa tanto do proprio computador "c:\pasta_teste\arquivo.csv" quanto da internet como abaixo
 df = pd.read_csv('https://raw.githubusercontent.com/AngeloDev-New/DadosPopulacional/main/dados.csv')
 
 # Criar o gráfico

@@ -1,4 +1,4 @@
-import pip
+
 #!pip install mplcursors
 #Importacao de bibliotecas
     #pandas para lidar com o arquivo csv 

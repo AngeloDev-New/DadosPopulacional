@@ -1,5 +1,4 @@
 import pip
-pip._internal.main(["install","mplcursors"])
 #!pip install mplcursors
 #Importacao de bibliotecas
     #pandas para lidar com o arquivo csv 
